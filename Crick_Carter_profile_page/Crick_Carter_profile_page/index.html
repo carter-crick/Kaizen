@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- START OF NAV BAR -->
+
+    <nav class="navBar">
+        <div class="navArea">
+            <div class="siteTitleAndLinks">
+                <h1 class="nav-title">Profile</h1>
+                <ul class="nav-links">
+                    <li><a href="#" id="homeNavLink">Home</a></li>
+                    <li><a href="#" class="active" id="myProfileNavLink">My Profile</a></li>
+                    <li><a href="#" id="findConnectionsNavLink">Find Connections</a></li>
+                </ul>
+            </div>
+            <button class="btn">Sign Out</button>
+        </div>
+    </nav>
+
+<!-- END OF NAV BAR -->
+<!-- START OF PAGE BODY AND USER CARD -->
+
+    <main class="pageBody">
+        <div class="mainContent">
+            <div class="userCard">
+                <div class="cardShape">
+                    <div class="banner">
+                        <img src="./images/carter-s.png" alt="photo of Carter Crick" id="profilePhoto">
+                    </div>
+                    <div class="cardBody">
+                        <h1 id="name">Carter Crick</h1>
+                        <div id="locationBox">
+                            <img src="./icons/map-marker.png" alt="Map Icon" id="mapIcon">
+                            <p id="location">Tampa, FL</p>
+                        </div>
+                        <p id="roleCompany">Founder of Kaizen</p>
+                        <p id="about">Visual Artist | Developer</p>
+                        <div class="editProfileBtn">
+                            <img src="./icons/gear.png" alt="Gear Icon" id="gearIcon">
+                            <a href="" id="editProfile">edit profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- END OF USER CAR -->
+<!-- START OF EDUCATION BLOCK -->
+
+            <div class="education">
+                    <h4 class="educationBanner" id="educationTitle">Education</h4>
+                <div class="educationOne">
+                    <h3 id="educationOneSchool">Coding Dojo - Full Stack Bootcamp</h3>
+                    <h5 id="educationOneDate">June 2023 - Sep 2023</h5>
+                    <h4 id="educationOneDescription">Triple black belt in Python, MERN, and C#...</h4>
+                </div>
+            </div>
+        </div>
+
+<!-- END OF EDUCATION BLOCK / MAIN CONTENT -->
+<!-- START OF RIGHT CONTENT / CONNECTION REQUESTS -->
+
+        <div class="rightContent">
+            <div class="connectionRequests">
+                <div class="connectionRequestsBanner">
+                    <h4 id="numberOfRequests">2</h4>
+                    <h4 id="connectionRequestsTitle">Connection Requests</h4>
+                </div>
+                <div class="connectionRequestOne">
+                    <div class="requestNameandPFP">
+                        <img src="./images/todd-s.jpg" alt="picture of Todd E" id="connectionRequestOnePFP">
+                        <p id="connectionRequestOneName">Todd E</p>
+                     </div>
+                    <div class="acceptDecline">
+                        <img src="./icons/accept-circle.png" alt="Accept Connection" id="connectionRequestOneAccept">
+                        <img src="./icons/close-circle.png" alt="Decline Connection" id="connectionRequestOneDecline">
+                    </div>
+                </div>
+                <div class="connectionRequestTwo">
+                    <img src="./images/phil-s.jpg" alt="picture of Phil K" id="connectionRequestTwoPFP">
+                    <p id="connectionRequestTwoName">Phil K</p>
+                    <div class="acceptDecline">
+                        <img src="./icons/accept-circle.png" alt="Accept Connection" id="connectionRequestTwoAccept">
+                        <img src="./icons/close-circle.png" alt="Decline Connection" id="connectionRequestTwoDecline">
+                    </div>
+                </div>
+            </div>
+
+<!-- END OF CONNECTION REQUESTS -->
+<!-- START OF YOUR CONNECTIONS -->
+
+            <div class="yourConnections">
+                <div class="yourConnectionsBanner">
+                    <h4 id="numberOfConnections">500+</h4>
+                    <h4 id="yourConnectionsTitle">Your Connections</h4>
+                </div>
+                <div>
+                    <div class="connectionOne">
+                        <img src="./images/adrien-s.jpg" alt="picture of Adrien D" id="connectionOnePFP">
+                        <p id="connectionOneName">Adrien D</p>
+                    </div>
+                    <div class="connectionTwo">
+                        <img src="./images/anne-s.jpg" alt="picture of Anne J" id="connectionTwoPFP">
+                        <p id="connectionTwoName">Anne J</p>
+                    </div>
+                    <div class="connectionThree">
+                        <img src="./images/alayne-s.jpg" alt="picture of Alayne T" id="connectionThreePFP">
+                        <p id="connectionThreeName">Alayne T</p>
+                    </div>
+                    <div class="connectionFour">
+                        <img src="./images/arry-s.jpg" alt="picture of Arry Y" id="connectionFourPFP">
+                        <p id="connectionFourName">Arry Y</p>
+                    </div>
+                        <a href="" class="viewMoreConnectionsBtn">View More</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

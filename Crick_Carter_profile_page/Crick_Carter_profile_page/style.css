@@ -1,0 +1,496 @@
+/* CSS RESET */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+/* START OF NAV BAR */
+
+
+
+nav {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navArea {
+    margin: 0px auto;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    height: 60px;
+}
+
+.siteTitleAndLinks {
+    display: flex;
+    /* min-width: 600px; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px;
+    /* min-width: 600px; */
+    vertical-align: center;
+        color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 0px
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 30px;
+    margin-right: 30px;
+    vertical-align: center;
+    align-items: center;
+        color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#homeNavLink {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#myProfileNavLink {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#findConnectionsNavLink {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: 800;
+    vertical-align: center;
+        color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    vertical-align: center;
+        color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: rgb(0, 84, 112);
+    vertical-align: center;
+        color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+    margin-right: 0px
+}
+
+
+
+/* END OF NAV BAR */
+/* START OF MAIN CONTENT AND USER CARD */
+
+
+.pageBody {
+    display: flex;
+    justify-content: center;
+}
+
+.mainContent {
+    margin: 10px;
+}
+
+.userCard {
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.cardShape {
+    height: 500px;
+    width: 600px;
+    background-color: rgb(237, 237, 237);
+}
+
+.banner {
+    height: 150px;
+    width: 600px;
+    background-color: rgb(13, 89, 119);
+}
+
+#profilePhoto {
+    height: 150px;
+    border-radius: 80px;
+    margin-top: 70px;
+    margin-left: 35px;
+}
+
+.cardBody {
+    margin-top: 95px;
+    margin-left: 40px;
+}
+
+#name {
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#locationBox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#mapIcon {
+    height: 30px;
+    justify-content: center;
+}
+
+#location {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    margin: 10px;
+}
+
+#roleCompany {
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+#about {
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.editProfileBtn {
+    margin-top: 50px;
+}
+
+#gearIcon {
+    height: 15px;
+}
+
+#editProfile {
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+
+
+/* END OF USER CARD */
+/* START OF EDUCATION */
+
+
+
+.education {
+    background-color: rgb(237, 237, 237);
+    height: 100;
+    width: 150;
+    margin-top: 20px;
+}
+
+.educationBanner {
+    background-color: rgb(51, 51, 51);
+    padding: 20px;
+}
+
+#educationTitle {
+    color: white;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.educationOne {
+    margin-left: 25px;
+    padding: 15px;
+}
+
+#educationOneSchool {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#educationOneDate {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#educationOneDescription {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+
+
+/* END OF MAIN CONTENT AND EDUCATION */
+/* START OF RIGHT CONTENT AND CONNECTION REQUESTS */
+
+
+
+.rightContent {
+    width: 300px;
+    margin: 10px;
+}
+
+.connectionRequests {
+    background-color: rgb(237, 237, 237);
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.connectionRequestsBanner {
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+#numberOfRequests {
+    color: black;
+    text-align: center;
+    background-color: rgb(237, 237, 237);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+#connectionRequestsTitle {
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+ }
+
+.connectionRequestOne {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    margin-bottom: 30px
+}
+
+.requestNameandPFP {
+    display: flex;
+    align-items: center;
+    flex: 2
+}
+
+#connectionRequestOnePFP {
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+#connectionRequestOneName {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.acceptDecline {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1
+}
+
+#connectionRequestOneAccept {
+    height: 40px;
+    margin: 3px;
+}
+
+#connectionRequestOneDecline {
+    height: 40px;
+    margin: 3px;
+}
+
+.connectionRequestTwo {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    margin-bottom: 30px
+}
+
+#connectionRequestTwoPFP {
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 20px;
+
+}
+
+#connectionRequestTwoName {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#connectionRequestTwoAccept {
+    height: 40px;
+    margin: 3px;
+}
+
+#connectionRequestTwoDecline {
+    height: 40px;
+    margin: 3px;
+}
+
+
+
+
+/* END OF CONNECTION REQUESTS */
+/* START OF YOUR CONNECTIONS */
+
+
+
+.yourConnections {
+    background-color: rgb(237, 237, 237);
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.yourConnectionsBanner {
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+#numberOfConnections {
+    color: black;
+    text-align: center;
+    background-color: rgb(237, 237, 237);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+#yourConnectionsTitle {
+    color: white;
+    margin: 5px;
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.connectionOne {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    margin-bottom: 30px
+}
+
+#connectionOnePFP {
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+#connectionOneName {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.connectionTwo {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    margin-bottom: 30px
+}
+
+#connectionTwoPFP {
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+#connectionTwoName {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.connectionThree {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    margin-bottom: 30px
+}
+
+#connectionThreePFP {
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+#connectionThreeName {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.connectionFour {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    margin-bottom: 30px
+}
+
+#connectionFourName {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#connectionFourPFP {
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.viewMoreConnectionsBtn {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* END OF YOUR CONNECTIONS */
+
+
